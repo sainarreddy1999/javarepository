@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class scanner{
     public static void main(String[] args) {
-        scanner obj=new scanner(System.in);
+        Scanner obj=new Scanner(System.in);
         System.out.println("enter the first integer");
         int a = obj.nextInt();
         System.out.println("enter second intiger");

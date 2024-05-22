@@ -1,0 +1,7 @@
+javac commands.java
+java commands.java
+
+git clone url
+git add .
+git commit -m "intial commit"
+git push java main

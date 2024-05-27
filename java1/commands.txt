@@ -1,5 +1,9 @@
-javac commands.java
-java commands.java
+Java Commands
+
+javac filename.java
+java filename.java
+
+Git Commands:
 
 git clone url
 git add .

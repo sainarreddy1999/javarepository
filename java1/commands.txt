@@ -9,3 +9,4 @@ To clone the repository :git clone repourl
 To add the changed files:git add .
 To commit the changed files:git commit -m "intial commit"
 To push changes into the repository:git push java main
+To pull the changes :git pull java main

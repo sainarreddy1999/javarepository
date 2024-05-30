@@ -6,17 +6,17 @@ public class enumExample1{
         div
     }
     public static void main(String[] args){
-        operators myval=operators.add;
+        operators myval=operators.sub;
+        int a=20;
+        int b=30;
         switch(myval){
-            case add:
-            int a=20;
-            int b=30;
+        case add:
+           
             System.out.println(a+b);
             break;
             case sub:
-            int x=30;
-            int y=10;
-        System.out.println(x-y);
+            
+        System.out.println(a-b);
         break;
     default:
         System.out.println("It is Some other operator");

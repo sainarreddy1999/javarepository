@@ -11,7 +11,6 @@ public class programWriter{
         String s="Hello";
         FileWriter fw=new FileWriter(file);
         fw.write(s);
-        fw.flush();
         fw.close();
     }
 }

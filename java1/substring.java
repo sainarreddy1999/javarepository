@@ -1,11 +1,10 @@
-public class substring{
-    public static void main(String[] args){
-        String str="java is a programing language";
-
-        for(int i=0; i<str.length(); i++){
-            for(int j=i+1; j<=str.length(); j++){
-                System.out.println(str.substring(i,j));
-            }
+public class substring {
+    public static void main(String[] args) {
+        String s = "7565";
+        
+        // Printing the indices
+        for (int i = 0; i <= s.length(); i++) {
+            System.out.println(i);
+        }
         }
     }
-}

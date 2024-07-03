@@ -9,7 +9,6 @@ public class programReader{
            file.createNewFile();
 
     FileReader fr=new FileReader(file);
-    
     int asciiCode;
     String text = new String();
     while((asciiCode=fr.read()) !=-1){
